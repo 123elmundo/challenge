@@ -1,0 +1,53 @@
+  <!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Encriptador</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css"/>
+</head>
+<body>
+    <header>
+        <img  class="logoA"   src="./assets/img/Logo (1).svg" alt="logo Alura Latam">
+
+    </header>
+    <main>
+
+        <form class="form_L">
+        <textarea name="texto_L" id="texto_L" class="texto_L" cols="30" rows="10"   placeholder="Ingrese el texto aquí."></textarea>
+        <div class="container_Img_Btn_L">
+            <div class="btn_Container_L">
+                <div class="alert_msj_L"><img src="./assets/img/Vector!.svg" alt="alert icon">
+                    <span>Solo letras minúsculas y sin acentos</span>
+                </div>
+            </div>
+            <div class="btn_2">
+            <input class="Encriptar"   type="button" value="Encriptar">
+            <input class="Desencriptar"type="button" value="Desencriptar">
+         </div>
+           
+        </div>
+    </form>
+
+        <aside class="_R">
+
+            <img src="./assets/img/Muñeco.svg" alt="" class="img_R">
+            <div class="mesj_R">
+                <h2 class="titulo_R">Ningún mensaje fue encontrado</h2>
+                <p class="parrafo_R">Ingresa el texto que desees encriptar o desencriptar.</p>
+                <button id="copiar" class="copiar">Copiar</button>
+                
+            </div>
+    
+        </aside>
+     
+
+    </main>
+
+   <script src="./codigo.js"></script>
+ 
+</body>
+</html> 

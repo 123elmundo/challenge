@@ -1,0 +1,348 @@
+body {
+    background-color: #E5E5E5;
+    margin: 0;
+    padding: 0;
+  font-family: "Inter", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: weight;
+  font-style: normal;
+}
+
+
+main {
+    display: flex;
+    align-content: center;
+}
+
+header {
+    display: flex;
+    position: relative;
+}
+
+.logoA {
+    position: absolute;
+    left: 1.5%;
+    top: 28px;
+}
+
+.form_L {
+    display: flex;
+    position: absolute;
+    flex-direction: column;
+    left: 15%;
+    top: 95px;
+}
+
+.texto_L {
+    display: flex;
+    position: absolute;
+    flex-direction: column;
+    width: 100%;
+    max-width: 577px;
+    height: 450%;
+    border-color: transparent;
+    outline: none;
+    font-style: normal;
+    font-size: 32px;
+    background-color: #E5E5E5;
+    color: #0A3871;
+}
+
+.texto_L::placeholder {
+    color: #0A3871;
+}
+
+.btn_Container_L {
+    display: flex;
+    flex-direction: row;
+    align-items: baseline;
+    padding: 0px;
+    gap: 8px;
+    position: absolute;
+    top: 340px;
+    width: 400px;
+}
+
+.btn_2 {
+    display: flex;
+    box-sizing: border-box;
+    flex-direction: row;
+    align-items: flex-start;
+    padding: 3px;
+    position: relative;
+    width: 88%;
+    height: 67px;
+    top: 370px;
+    gap: 2.5%;
+}
+
+.Encriptar {
+    align-items: flex-start;
+    justify-content: center;
+    padding: 15px;
+    gap: 5px;
+    width: 328px;
+    background-color: #0A3871;
+    border: 1px solid black;
+    border-radius: 22px;
+    font-size: 16px;
+    line-height: 26px;
+    text-align: center;
+    color: white;
+    cursor: pointer;
+}
+
+.Desencriptar {
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: center;
+    padding: 15px;
+    gap: 5px;
+    width: 328px;
+    background-color: #d8dfe8;
+    border: 1px solid #0A3871;
+    border-radius: 22px;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+    text-align: center;
+    color: #0A3871;
+    cursor: pointer;
+}
+
+.Encriptar:hover {
+    margin: 0.5%;
+    padding: 12px;
+    width: 322px;
+}
+
+.Desencriptar:hover {
+    margin: 0.5%;
+    padding: 12px;
+    width: 322px;
+}
+
+._R {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    width: 25%;
+    height: 90%; 
+    max-height: 90%; 
+    left: 68%;
+    top: 5%;
+    background: white;
+    box-shadow: 0px 24px 32px -8px rgba(0, 0, 0, 0.2);
+    border-radius: 32px;
+    padding: 20px; 
+    overflow: hidden;
+    box-sizing: border-box;
+      }
+
+.mesj_R {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 1%;
+    position: absolute;
+    width: 100%;
+    top: 58%;
+    text-align: 65%;
+    
+
+}
+
+h2 {
+    width: 70%;
+    font-family: "Inter", sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 22px;
+    line-height: 120%;
+    text-align: center;
+    color: #343a40;
+    margin: 0;
+}
+
+.parrafo_R {
+    width: 80%;
+    font-family: "Inter", sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 13.5px;
+    line-height: 150%;
+    text-align: center;
+    color: #495057;
+    word-wrap: break-word; 
+    white-space: pre-wrap; 
+    overflow-wrap: break-word; 
+    overflow-y: auto; 
+    height: 90px; 
+    padding: 10px; 
+    box-sizing: border-box; 
+      }
+.copiar{
+    width: 20%;
+    top: 82%;
+    padding: 12px ;
+    background-color: transparent;
+    border: 1px solid #0A3871;
+    border-radius: 24px;
+    cursor: pointer;
+    line-height: 26px;
+    font-size: 16px;
+    color: #0A3871;;
+    position: fixed;
+}
+
+.copiar:hover {
+    background-color: #d8dfe8;
+    margin: 0.2%;
+    padding: 11px ;
+    width: 19%;
+}
+    
+
+.img_R {
+    position: absolute;
+    width: 80%;
+    height: 50%;
+    top: 10%;
+}
+
+@media (max-width: 1024px){
+    body{
+        display: flex;
+        flex-direction: row;
+        width: 100%;
+        flex-wrap: wrap;
+    }
+    .form_L{
+        top: 20%;
+        right: 6%; 
+         
+    }
+    .texto_L{
+        width: 660px;
+    }
+    ._R{
+        width: 655px;
+        left: 10%;
+        height: 30%;
+        top: 730px;
+    }
+    .btn_Container_L{
+        
+        font-size: 12px;
+    }
+    .btn_2{
+        width: 655px;
+        right: 6%;
+        
+    }
+    .copiar{
+        position: fixed;
+        width: 70%;
+        top: 90%;
+
+    }
+    .mesj_R{
+        top:10%;
+        bottom: 5%;
+        
+    }
+    .img_R{
+        top: 0%;
+        display: none;
+        visibility: hidden;
+    }
+}
+
+@media (max-width: 768px){
+    .copiar{
+        position: fixed;
+        width: 70%;
+        top: 88%;
+    }
+    ._R{
+        height: 30%;
+    }
+    .parrafo_R{
+        height: 400px;
+    }
+    .mesj_R{
+        bottom: 35%;
+    }
+    
+}
+
+@media (max-width: 500px){
+
+    body{
+        display: flex;
+        box-sizing: border-box;
+        
+    }
+   
+    .form_L{
+        justify-content: center;
+        top: 50%;
+        gap:20%;
+    }
+    .texto_L{
+        height: 400px;
+    }
+    .btn_2{
+        flex-wrap: wrap;
+        gap: 40%;
+    }
+    .Encriptar{
+        width: 94%;
+        height: 130%;
+    }
+    .Desencriptar{
+        width: 94%;
+        height: 130%;
+    }
+    .Encriptar:hover {
+        margin: 0.5%;
+        padding: 0.5%;
+        width: 93.8%;
+    }
+    
+    .Desencriptar:hover {
+        margin: 0.5%;
+        padding: 0.5%;
+        width: 93.8%;
+    }
+
+    ._R{
+        width: 610px;
+        height: 40%;
+        margin-top: 80%;
+        
+    }
+      }
+    @media (max-width: 380px){
+        ._R{
+            width: 610px;
+            height: 40%;
+            margin-top: 60%;
+    }
+    .copiar{
+        top:93%;
+    }
+      }
+    @media (max-width: 445px){
+        ._R{
+            top: 100%;
+            height: 600px;
+        }
+        .copiar{
+            top: 86%;
+        }
+    
+}
